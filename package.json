@@ -1,0 +1,21 @@
+{
+  "name": "world-bank-csv",
+  "version": "1.0.0",
+  "description": "Create a CSV file for all high-income countries with their GDP",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "csv": "node index"
+  },
+  "author": "elliotschi@gmail.com",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "promise-mock": "^1.1.1"
+  }
+}
